@@ -1,0 +1,5 @@
+#!/bin/bash
+cd ./build
+make clean
+make -j14
+echo "9873347356" | sudo -S make install
